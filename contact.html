@@ -11,26 +11,47 @@
 </head>
 
 <body>
-    <div id="after_submit"></div>
-    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-        <div class="row">
-            <label class="required" for="name">Tu nombre:</label><br />
-            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-            <span id="name_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-            <label class="required" for="email">Tu correo:</label><br />
-            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-            <span id="email_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-            <label class="required" for="message">Ingrese mensaje:</label><br />
-            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-            <span id="message_validation" class="error_message"></span>
-        </div>
+    <header>
+        <h1>Contactame</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
 
-        <input id="submit_button" type="submit" value="Send email" />
-    </form>
+    <section id="sidebar">
+
+    </section>
+    <section id="redes">
+
+    </section>
+    <section id="formualrio">
+        <div id="after_submit"></div>
+        <form id="contact_form">
+            <div class="row">
+                <label class="required" for="name">Tu nombre:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                <span id="name_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="email">Tu correo:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                <span id="email_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="message">Ingrese mensaje:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                <span id="message_validation" class="error_message"></span>
+            </div>
+
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
+
+    </section>
+
 
     <script src="" async defer></script>
 </body>
