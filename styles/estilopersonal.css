@@ -1,65 +1,64 @@
+/*Mi primer estilo css*/
+
 * {
-    padding: 0;
+    box-sizing: border-box;
     margin: 0;
-}
-
-header {
-    background: rgba(69, 47, 104, 0.9);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
-nav {
-    float: right;
-    /* Desplazamos el nav hacia la izquierda */
-}
-
-nav ul {
-    list-style: none;
-    overflow: hidden;
-    /* Limpiamos errores de float */
-}
-
-nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-
-nav ul li a {
-    display: block;
-    /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li:hover {
-    background: #5eb3b9;
+    padding: 0;
 }
 
 body {
-    margin: 10px;
-    padding: 0;
-    background-color: rgb(225, 225, 225);
-    z-index: 0;
-    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
     width: 100%;
+    max-width: 1170px;
+    margin: auto;
 }
 
-#content {
-    margin-left: 10%;
-    width: 80%;
-    margin-top: 10px;
+
+/*CABECERA*/
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #534563;
 }
 
-#welcome {
-    margin-left: 10%;
-    width: 80%;
-    margin-top: 10px;
+.logo {
+    padding: 5px 0;
 }
 
-p {
-    margin-bottom: 20px;
+.logo img {
+    width: 150px;
+    display: block;
+    margin: left;
+    transition-duration: 0.5s;
 }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 450px;
+    margin: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fcfff5;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+.menu a:hover {
+    color: #A6D9CE;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #80768E
+}
+
+
+/*FIN CABECERA*/
