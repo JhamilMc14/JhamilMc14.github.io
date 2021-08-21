@@ -158,6 +158,7 @@ header {
     line-height: 1.7em;
     max-width: 370px;
     margin: auto;
+    text-align: justify;
 }
 
 
@@ -215,12 +216,14 @@ header {
     font-size: 14px;
     color: #1E1924;
     padding-bottom: 25px;
+    text-align: justify;
 }
 
 .conoceme p:nth-child(4) {
     font-size: 14px;
     color: #1C221F;
     padding-bottom: 20px;
+    text-align: justify;
 }
 
 .conoceme a {
