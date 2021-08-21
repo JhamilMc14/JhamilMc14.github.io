@@ -118,6 +118,11 @@ header {
     background-color: rgba(0, 0, 0, 0.4);
     margin-top: 40px;
     border-radius: 40px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -159,9 +164,12 @@ header {
 
 /*----------IINICIO SECCION SOBRE MI-------*/
 
+.sobremi {
+    padding-bottom: 80px;
+}
+
 .sobremi>.contenedor {
     display: flex;
-    ;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -170,6 +178,7 @@ header {
 .foto-sobremi {
     width: 100%;
     max-width: 570px;
+    padding: 0 20px;
 }
 
 .foto-sobremi img {
@@ -222,8 +231,82 @@ header {
     background-color: rgba(37, 120, 187, 0.6);
 }
 
+@media all and (min-width:769px) {
+    .sobremi {
+        padding-top: 80px;
+    }
+    .foto-sobremi {
+        margin-right: 30px;
+    }
+    .conoceme {
+        padding-left: 30px;
+    }
+}
+
 
 /*----------FIN SECCION SOBRE MI-------*/
 
 
 /* ------------------------------------*/
+
+
+/* ---------- FOOTER -----------------*/
+
+.top-footer {
+    background-color: #5B4A6D;
+    height: 25px;
+}
+
+.center-footer {
+    background-color: #473A55;
+}
+
+.center-footer .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center-footer .widget {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color: #A2A4A4;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.center-footer .widget h4 {
+    padding-bottom: 35px;
+    font-size: 18px;
+}
+
+.center-footer .widget p {
+    padding-bottom: 35px;
+    font-size: 14px;
+}
+
+.center-footer .widget a {
+    padding-bottom: 5px;
+    padding: 0 75px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #A2A4A4;
+    display: flex;
+    flex-direction: column;
+    /* text-transform: uppercase; */
+}
+
+.bottom-footer {
+    background-color: #5B4A6D;
+    height: 25px;
+}
+
+.bottom-footer p {
+    text-align: center;
+    color: #A2A4A4;
+    font-size: 12px;
+}
+
+
+/* ---------- FIN FOOTER -----------------*/
