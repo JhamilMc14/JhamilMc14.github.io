@@ -122,3 +122,33 @@ header {
 
 
 /* --------FIN BANNER PRINCIPAL -------*/
+
+
+/* ------------------------------------*/
+
+
+/* -------- SECCIÓN BIENVENIDA --------*/
+
+.bienvenida {
+    width: 100%;
+    background-color: #6F6F85;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.bienvenida h3 {
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.bienvenida p {
+    font-size: 16px;
+    padding-bottom: 50px;
+    line-height: 1.7em;
+    max-width: 370px;
+    margin: auto;
+}
+
+
+/* ---------FIN SECCION BIENVENIDA--------*/
