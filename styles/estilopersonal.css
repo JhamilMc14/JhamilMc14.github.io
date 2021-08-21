@@ -325,3 +325,167 @@ header {
 
 
 /* ---------- FIN FOOTER -----------------*/
+
+
+/* ------------------------------------------------- */
+
+
+/* ********PAGINA SOBRE MI***********/
+
+
+/*---------BANNER PRINCIPAL SM---------------*/
+
+.banner-sobremi {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bannersm.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-sobremi>div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(83, 69, 99, 0.3);
+}
+
+
+/*---------FIN BANNER PRINCIPAL SM---------------*/
+
+
+/*---------CONTENIDO HOBBIES-------------*/
+
+.conocimientos {
+    margin-top: 2px;
+    background-color: rgba(193, 162, 162, 0.32);
+    width: 100%;
+    text-align: center;
+}
+
+.conoc-principales {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.conocimientos h2 {
+    color: #a2a2a2;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #a2a2a2;
+}
+
+@media (min-width: 769px) {
+    .conoc-principales {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.principal-uno {
+    margin: 18px 0px;
+    padding: 20px;
+}
+
+.principal-uno img {
+    border-radius: 100%;
+    max-width: 280px;
+    width: 100%;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.principal-uno h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.principal-uno h2 {
+    font-size: 20px;
+    color: #90493A;
+}
+
+.principal-uno p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/*---------FIN CONTENIDO HOBBIES------------*/
+
+
+/*-----------CONTENIDO contenido luagres que conozco--------------*/
+
+.pagsobremi {
+    padding-top: 5px;
+    padding-bottom: 80px;
+    background-color: #e4e4e4;
+    border-top: 5px solid #ffffff;
+    border-width: 100%;
+}
+
+.pagsobremi>.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagsobremi>h2 {
+    color: #a2a2a2;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #a2a2a2;
+    padding-left: 30px;
+    ;
+}
+
+.foto-pagsobremi {
+    width: 100%;
+    max-width: 380px;
+    margin: 50px 30px;
+    /* margin-right: 30px;
+    margin-top: 50px; */
+}
+
+.foto-pagsobremi img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.conte-sobremi {
+    text-align: center;
+    padding: 20px 0px;
+    max-width: 570px;
+}
+
+.conte-sobremi h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #2578BB;
+    font-size: 18px;
+}
+
+.conte-sobremi p {
+    font-size: 14px;
+    color: #1E1924;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+@media all and (min-width: 769px) {
+    .pagsobremi {
+        padding-top: 80px;
+    }
+    .foto-pagsobremi {
+        width: 100%;
+        margin-right: 30px;
+    }
+    .conte-sobremi {
+        padding-left: 25px;
+    }
+}
