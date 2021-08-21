@@ -385,12 +385,13 @@ header {
 }
 
 .principal-uno {
-    margin: 18px 0px;
+    margin: auto;
     padding: 20px;
+    /* margin: auto; */
 }
 
 .principal-uno img {
-    border-radius: 100%;
+    border-radius: 40%;
     max-width: 280px;
     width: 100%;
     height: 200px;
@@ -402,9 +403,9 @@ header {
     font-size: 18px;
 }
 
-.principal-uno h2 {
+.principal-uno h3 {
     font-size: 20px;
-    color: #90493A;
+    color: #3b1968;
 }
 
 .principal-uno p {
