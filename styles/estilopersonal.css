@@ -293,6 +293,7 @@ header {
 .center-footer .widget p {
     padding-bottom: 35px;
     font-size: 14px;
+    text-align: justify;
 }
 
 .center-footer .widget a {
