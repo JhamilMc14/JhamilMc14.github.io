@@ -17,29 +17,64 @@
 <body>
     <!-- encabezado del sitio -->
     <header>
-        <div class="contenedor">
-            <div class="header1">
-                <div class="logo">
+        <div class="container-fluid">
+            <div class="row justify-content-lg-between justify-content-center py-3 aling-item">
+                <div class="col-12 col-lg aling-center col-auto logo order-2 order-lg-1">
                     <img src="img/logob.png" alt="mi logo" title="Mi pagina persoal">
                 </div>
-                <nav class="menu">
-                    <a href="index.html">Inicio</a>
-                    <a href="about.html">Sobre mi</a>
-                    <a href="contact.html">Contacto</a>
-                </nav>
+                <div class="col col-auto order-1 order-lg-2">
+                    <ul class="nav menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
         </div>
     </header>
     <!--contenido-->
     <!-- Banner principar -->
 
-    <section class="banner">
-        <div>
-            <div class="contenedor llamada-accion">
-                <p>Bienvenido a mi página personal, soy JhamilMc </p>
-                <h2>Bienvenido</h2>
-                <a href="about.html">ver más</a>
+    <section class="row main-carousel">
+        <div class="col">
+            <div id="micarusel" class="banner carousel slide" data-ride="carousel" data-interval="1000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner.jpg" class="d-block w-100" alt="">
+                        <div class="llamada-accion carousel-caption d-none d-md-block py-5">
+                            <p>Bienvenido a mi página personal, soy JhamilMc</p>
+                            <a href="about.html"> ver más</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banda.jpg" class="d-block w-100" alt="">
+                        <div class="llamada-accion carousel-caption d-none d-md-block py-5">
+                            <p>Bienvenido a mi página personal, soy JhamilMc</p>
+                            <a href="about.html"> ver más</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/capitan2.jpg" class="d-block w-100" alt="">
+                        <div class="llamada-accion carousel-caption d-none d-md-block py-5">
+                            <p>Bienvenido a mi página personal, soy JhamilMc</p>
+                            <a href="about.html"> ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#micarusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#micarusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
             </div>
         </div>
     </section>
