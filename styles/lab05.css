@@ -23,7 +23,8 @@ body {
     color: azure;
 }
 
-#grupo3 {
+#grupo3,
+#btnColorear {
     background-color: #c55725;
     color: azure;
 }
