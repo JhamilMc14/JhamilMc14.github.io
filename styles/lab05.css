@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#grupo1 {
+    background-color: rgb(38, 68, 134);
+    color: azure;
+}
+
+#grupo2 {
+    background-color: rgb(38, 68, 134);
+    color: azure;
+}
+
+#btnExtraer {
+    background-color: #FFC107;
+    color: azure;
+}
+
+#grupo3 {
+    background-color: #c55725;
+    color: azure;
+}
