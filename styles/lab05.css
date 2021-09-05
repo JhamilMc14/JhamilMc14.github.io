@@ -8,13 +8,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#grupo1 {
-    background-color: rgb(38, 68, 134);
-    color: azure;
-}
-
-#grupo2 {
-    background-color: rgb(38, 68, 134);
+#grupo1Apn,
+#grupo1Fec,
+#grupo2Pa,
+#grupo2Ma,
+#grupo2No {
+    background-color: #224686;
     color: azure;
 }
 
@@ -23,7 +22,9 @@ body {
     color: azure;
 }
 
-#grupo3,
+#grupo3Lon,
+#grupo3Eda,
+#grupo3Mes,
 #btnColorear {
     background-color: #c55725;
     color: azure;
