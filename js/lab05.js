@@ -36,7 +36,7 @@ let flag = 1;
 function cambiar_color() {
 
     if (flag) {
-        // cambiando colores de cajas izqueirda
+        // cambiando colores de cajas izquierda
         let grupo1Apn = document.getElementById("grupo1Apn");
         let grupo1Fec = document.getElementById("grupo1Fec");
 
@@ -61,7 +61,7 @@ function cambiar_color() {
         grupo3Mes.style.backgroundColor = "#264486"
         flag = 0;
     } else {
-        // cambiando colores de cajas izqueirda
+        // cambiando colores de cajas izquierda
         let grupo1Apn = document.getElementById("grupo1Apn");
         let grupo1Fec = document.getElementById("grupo1Fec");
 
